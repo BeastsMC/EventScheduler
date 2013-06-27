@@ -1,0 +1,15 @@
+name: EventScheduler
+main: com.BeastsMC.EventScheduler
+author: TheBeast808
+version: 1.0
+commands:
+   event:
+      description: Schedule an event
+      usage: /event [name] [time]<s|m|h>
+      permission: eventscheduler.event
+      permission-message: You do not have permission to use this command!
+   cancelevent:
+      description: Cancel an event
+      usage: /cancelevent
+      permission: eventscheduler.cancelevent
+      permission-message: You do not have permission to use this command!
